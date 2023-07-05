@@ -191,17 +191,15 @@ collections:
 
 # Defaults
 defaults:
-  # _posts
+  #_art
   - scope:
       path: ""
-      type: posts
+      type: art
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
       share: true
-      related: true
+      comment: true
   # _pages
   - scope:
       path: ""
