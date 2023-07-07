@@ -1,0 +1,10 @@
+<div id="repo"></div>
+
+<script>
+  $(function() {
+    $("#repo").repo({
+      user: "{{ include.user }}",
+      name: "{{ include.name }}"
+    });
+  });
+</script>
