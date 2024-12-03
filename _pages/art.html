@@ -1,0 +1,13 @@
+---
+layout: archive
+permalink: /art/
+title: "Personal Art Pieces (just a hobby)"
+author_profile: true
+---
+
+{% include base_path %}
+
+
+{% for post in site.art %}
+  {% include archive-single.html %}
+{% endfor %}
